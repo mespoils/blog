@@ -7,7 +7,7 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\Asus\\Desktop\\个人"
+publish = "."
 publishOrigin = "default"
 
 [build.environment]
