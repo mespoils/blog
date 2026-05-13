@@ -1,0 +1,58 @@
+:root {
+  /* 暖色杂志风调色板 */
+  --color-bg:         #fdf6ed;
+  --color-surface:    #faf3e6;
+  --color-text:       #2c2416;
+  --color-text-muted: #8c8069;
+  --color-accent:     #b8573b;
+  --color-border:     #e0d5c1;
+  --color-code-bg:    #f0e6d3;
+  --color-shadow:     rgba(44, 36, 22, 0.06);
+
+  /* 字体栈 */
+  --font-serif: Georgia, 'Times New Roman', 'Noto Serif SC', 'Source Han Serif SC', serif;
+  --font-sans:  system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-mono:  'Cascadia Code', Consolas, 'Courier New', monospace;
+
+  /* 排版缩放 */
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1.0625rem;
+  --text-lg:   1.25rem;
+  --text-xl:   1.5rem;
+  --text-2xl:  2rem;
+  --text-3xl:  2.5rem;
+  --text-4xl:  3.25rem;
+
+  --leading-tight:   1.2;
+  --leading-normal:  1.8;
+  --leading-relaxed: 2.0;
+
+  /* 间距 */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 5rem;
+
+  /* 布局 */
+  --content-max-width: 720px;
+  --site-max-width: 1200px;
+  --card-min-width: 320px;
+
+  /* 过渡 */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+}
+
+html.dark {
+  --color-bg:         #1a1815;
+  --color-surface:    #24211c;
+  --color-text:       #e8dcc8;
+  --color-text-muted: #8c8069;
+  --color-accent:     #d4846b;
+  --color-border:     #3d362b;
+  --color-code-bg:    #2d2820;
+  --color-shadow:     rgba(0, 0, 0, 0.3);
+}

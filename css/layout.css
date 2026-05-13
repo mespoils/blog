@@ -1,0 +1,83 @@
+.site-container {
+  max-width: var(--site-max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+#app {
+  min-height: 60vh;
+  padding: var(--space-xl) 0;
+}
+
+/* 首页卡片网格 */
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--card-min-width), 1fr));
+  gap: var(--space-lg);
+  padding: var(--space-xl) 0;
+}
+
+.article-grid .card:first-child {
+  grid-column: 1 / -1;
+}
+
+.article-grid .card:first-child .card-title {
+  font-size: var(--text-2xl);
+}
+
+/* 文章详情页 */
+.article-page {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: var(--space-2xl) 0;
+}
+
+.article-page .article-header {
+  margin-bottom: var(--space-xl);
+}
+
+.article-page .article-body {
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+}
+
+.article-page .article-body p {
+  margin-bottom: var(--space-lg);
+}
+
+/* 筛选列表页 */
+.filtered-page {
+  padding: var(--space-xl) 0;
+}
+
+.filtered-page .filter-heading {
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  :root {
+    --text-base: 1rem;
+    --text-3xl: 2rem;
+    --text-4xl: 2.5rem;
+  }
+
+  .site-container {
+    padding: 0 var(--space-md);
+  }
+
+  .article-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  .article-grid .card:first-child {
+    grid-template-columns: 1fr;
+  }
+
+  .article-page {
+    padding: var(--space-xl) var(--space-md);
+  }
+}
