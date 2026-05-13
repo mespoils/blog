@@ -1,7 +1,7 @@
 [
   {
     "slug": "ddd",
-    "title": "只叫我宝宝好吗？",
+    "title": "天天开心",
     "date": "2026-05-13",
     "category": "",
     "tags": [],
@@ -11,28 +11,21 @@
   },
   {
     "slug": "on-typography",
-    "title": "排印之思",
+    "title": "",
     "date": "2026-05-01",
-    "category": "设计",
-    "tags": [
-      "排印",
-      "字体",
-      "阅读"
-    ],
-    "excerpt": "字母是一种技术。如同所有技术一样，它有着自己的历史——渐进改良、彻底重构与静默革命的谱系。",
+    "category": "",
+    "tags": [],
+    "excerpt": "",
     "cover": null,
     "file": "content/articles/on-typography.md"
   },
   {
     "slug": "slow-walking",
-    "title": "慢行的艺术",
+    "title": "",
     "date": "2026-04-15",
-    "category": "生活",
-    "tags": [
-      "沉思",
-      "城市"
-    ],
-    "excerpt": "关于速度、地点与注意力的沉思。在加速的时代里，步行是我们最后的庇护所。",
+    "category": "",
+    "tags": [],
+    "excerpt": "",
     "cover": null,
     "file": "content/articles/slow-walking.md"
   },
